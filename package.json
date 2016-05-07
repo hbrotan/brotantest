@@ -1,7 +1,24 @@
 {
   "name": "brotantest",
   "version": "1.0.0",
+  "description": "https://github.com/Azure/azure-content/blob/master/articles/app-service-web/web-sites-nodejs-develop-deploy-mac.md",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.13.4"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbrotan/brotantest.git"
+  },
+  "author": "Brotan Solutions",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hbrotan/brotantest/issues"
+  },
+  "homepage": "https://github.com/hbrotan/brotantest#readme"
 }
